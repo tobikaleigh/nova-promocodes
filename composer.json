@@ -8,13 +8,19 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "tobikaleigh/laravel-promocodes": "^10.0"
+        "tobikaleigh/laravel-promocodes": "master"
     },
     "autoload": {
         "psr-4": {
             "Zorb\\NovaPromocodes\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "url": "https://github.com/tobikaleigh/laravel-promocodes.git",
+            "type": "git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
