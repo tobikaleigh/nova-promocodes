@@ -15,12 +15,6 @@
             "Zorb\\NovaPromocodes\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "url": "https://github.com/tobikaleigh/laravel-promocodes.git",
-            "type": "git"
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
